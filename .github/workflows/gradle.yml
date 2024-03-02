@@ -15,5 +15,5 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: application.jar
-          path: .build/libs/application.jar
+          name: gradle-github-actions-example.jar
+          path: .build/libs/*.jar
