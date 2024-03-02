@@ -17,4 +17,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: gradle-github-actions-example.jar
-          path: .build/libs/*.jar
+          path: ./build/libs/*.jar
